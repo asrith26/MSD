@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+   /* Add this to style the main page and center the calculator */
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;   /* Centers vertically */
+  min-height: 100vh;     /* Makes the page full-height */
+  margin: 0;             /* Removes default browser margin */
+  background-color: #f0f2f5; /* Light gray background for the page */
+}
+
+/* Your existing .box style, now perfectly centered */
+.box {
+  padding: 15px;
+  padding-top: 100px; /* This creates the space on top for the display */
+  border: 2px solid #ccc;
+  border-radius: 12px; /* Optional: adds rounded corners */
+  background-color: #444;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a nice shadow */
+
+  /* Your grid styles */
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  gap: 5px;
+}
+         .box>div:nth-child(1n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+        .box>div:nth-child(2n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(3n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(4n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(5n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(6n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(7n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(8n){
+            row-gap: 2;
+            background-color: rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+         .box>div:nth-child(10n){
+            row-gap: 2;
+            background-color:orange ;
+            grid-area: 30px;
+        }
+         .box>div:nth-child(9n){
+            row-gap: 2;
+            background-color:rgb(195, 193, 193);
+            grid-area: 30px;
+        }
+      /* Make the "0" button (34th element) span across two columns */
+.box > div:nth-child(47) {
+  grid-column: span 2;
+}
+
+/* Hide the "." button (35th element) to make space */
+.box > div:nth-child(48) {
+  display: none;
+}
+  
+         
+    </style>
+</head>
+<body>
+    <div class="box" >
+
+      <div><center>(</center></div>
+       <div><center>)</center></div>
+       <div><center>mc</center></div>
+       <div><center>m+</center></div>
+       <div><center>m-</center></div>
+       <div><center>mr</center></div>
+       <div><center>AC</center></div>
+       <div><center>+/-</center></div>
+       <div><center>%</center></div>
+       <div><center>/</center></div>
+       <div><center>2<sup>nd</sup></center></div>
+       <div><center>X<sup>2</sup></center></div>
+       <div><center>X<sup>3</sup></center></div>
+       <div><center>X<sup>y</sup></center></div>
+       <div><center>e<sup>x</sup></center></div>
+       <div><center>10<sup>x</sup></center></div>
+       <div><center>7</center></div>
+       <div><center>8</center></div>
+       <div><center>9</center></div>
+       <div><center>X</center></div>
+       <div><center>1/x</center></div>
+       <div><center>2√x</center></div>
+       <div><center>3√x</center></div>
+       <div><center>y√x</center></div>
+       <div><center>In</center></div>
+       <div><center>log<sub>10</sub></center></div>
+       <div><center>4</center></div>
+       <div><center>5</center></div>
+       <div><center>6</center></div>
+       <div><center>-</center></div>
+       <div><center>X!</center></div>
+       <div><center>Sin</center></div>
+       <div><center>Cos</center></div>
+       <div><center>Tan</center></div>
+       <div><center>e</center></div>
+       <div><center>EE</center></div>
+       <div><center>1</center></div>
+       <div><center>2</center></div>
+       <div><center>3</center></div>
+       <div><center>+</center></div>
+       <div><center>Rad</center></div>
+       <div><center>Sinh</center></div>
+       <div><center>Cosh</center></div>
+       <div><center>Tanh</center></div>
+       <div><center>π</center></div>
+       <div><center>Rand</center></div>
+        <div><center>0</center></div>
+        <div><center>0</center></div>
+<div><center>.</center></div>
+<div><center>=</center></div>
+
+    </div>
+    
+</body>
+</html>

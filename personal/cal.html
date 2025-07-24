@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <style>
-   /* Add this to style the main page and center the calculator */
+  
 body {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;   /* Centers vertically */
-  min-height: 100vh;     /* Makes the page full-height */
-  margin: 0;             /* Removes default browser margin */
-  background-color: #f0f2f5; /* Light gray background for the page */
+  justify-content: center; 
+  align-items: center;  
+  min-height: 100vh;    
+  margin: 0;            
+  background-color: #f0f2f5; 
 }
 
-/* Your existing .box style, now perfectly centered */
+
 .box {
   padding: 15px;
-  padding-top: 100px; /* This creates the space on top for the display */
+  padding-top: 100px; 
   border: 2px solid #ccc;
-  border-radius: 12px; /* Optional: adds rounded corners */
+  border-radius: 12px; 
   background-color: #444;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a nice shadow */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
-  /* Your grid styles */
+  
   display: grid;
   grid-template-columns: repeat(10, 50px);
   gap: 5px;
@@ -79,12 +79,12 @@ body {
             background-color:rgb(195, 193, 193);
             grid-area: 30px;
         }
-      /* Make the "0" button (34th element) span across two columns */
+     
 .box > div:nth-child(47) {
   grid-column: span 2;
 }
 
-/* Hide the "." button (35th element) to make space */
+
 .box > div:nth-child(48) {
   display: none;
 }
